@@ -1,0 +1,17 @@
+#myheader{background-color: aqua; text-align: center; padding: 20px; }
+div.mycontainer { width:60%; overflow:auto;}
+div.mycontainer div {width:25%; float:left;}
+.testbtn {background-color: #FEE2C4; color: white; font-size: 15px; padding:12px; border: none; border-radius: 5px; cursor: pointer;}
+.city {background-color: #FFE9D4; color: black; padding: 10px;}
+.testbtn:hover {background-color: #059862;}
+body {background-color: lightblue;}
+h1 {text-align: left; color: black; font-weight: bold; text-decoration: underline;}
+h1 {text-align: left; color: black; font-weight: bold; text-decoration: underline;}
+h2 {color: black; text-align: left; text-decoration: underline;}
+h3 { color: black; text-align: left; text-decoration: underline;}
+h4 {color: black; text-align: left; text-decoration: underline;}
+h5 {color: black; text-align: left; text-decoration: underline;}
+h6 {color: black; text-align: left; text-decoration: underline;}
+
+p{color: darkblue; text-align: left; font-weight: inherit;}
+p {color: grey; text-align: left; font-weight: inherit;}
