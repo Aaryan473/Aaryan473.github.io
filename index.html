@@ -1,69 +1,41 @@
-
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>RESUME</title>
-    <link rel="stylesheet" href="../cd.css">
+    <title>About You</title>
 </head>
 <body>
 
-<h1 id="myHeader">RESUME</h1>
+    <h2>Contact Form</h2>
 
-<h1> Sagar Singh</h1>
-<p>
-mob.no. 9953852863 <br>
-email - 9953852413shbv@gmail.com
-</p>
+    <form action="/RESUME.html">
 
-<h1>Summary</h1>
-<p>
-Detail-oriented fresher with strong knowledge of Advanced Excel, Power BI, Tally, Busy, and HTML.
-Skilled in data analysis, reporting, and basic web development. Seeking an opportunity to apply analytical
-and technical skills to support business decision-making and organizational growth.
-</p>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
 
-<section class="skills">
-<h1>Skills</h1>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
 
-<table border="1" cellpadding="10">
-    <tr>
-        <th>Technical Skills</th>
-        <th>Soft Skills</th>
-    </tr>
-    <tr>
-        <td>Advanced Excel</td>
-        <td>Communication</td>
-    </tr>
-    <tr>
-        <td>Power BI</td>
-        <td>Teamwork</td>
-    </tr>
-    <tr>
-        <td>Tally</td>
-        <td>Problem Solving</td>
-    </tr>
-    <tr>
-        <td>Busy</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>HTML</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>MS Office</td>
-        <td></td>
-    </tr>
-</table>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
 
-</section>
-<button> click me </button>
+        <label for="phone no.">ph.no:</label><br>
+        <input type="phone no" id="phone no." name="contact no"><br>
 
-<h1 class="city">Projects</h1>
-<a href="https://www.marvel.com" target="_blank">
-<button class="testbtn">MARVEL </button>
-</a>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br>
 
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" name="hobby" value="reading"> Reading
+        <input type="checkbox" name="hobby" value="sports"> Sports<br>
+
+        <label for="Country">Country:</label><br>
+        <select name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+<p>If you click the "Submit" button, then you can see my Resume will be sent to a page called "/RESUME.html".</p>
 </body>
 </html>
