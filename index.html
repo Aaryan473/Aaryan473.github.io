@@ -1,41 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>About You</title>
+  <link rel="stylesheet" href="../cd.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial;
+        }
+
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 320px;
+            border-radius: 10px;
+        }
+
+        input, select {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .inline {
+            width: auto;
+            margin-right: 10px;
+        }
+    </style>
 </head>
 <body>
+<form action="/MY RESUME.html">
+    <form>
+        <h2>Contact Form</h2>
 
-    <h2>Contact Form</h2>
+        <label>Name:</label>
+        <input type="text" name="name">
 
-    <form action="/RESUME.html">
+        <label>Email:</label>
+        <input type="email" name="email">
 
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
+        <label>Phone No:</label>
+        <input type="tel" name="phone">
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
+        <label>Age:</label>
+        <input type="number" name="age">
 
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br>
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <label><input class="inline" type="radio" name="gender" value="male"> Male</label>
+        <label><input class="inline" type="radio" name="gender" value="female"> Female</label>
+        <br><br>
 
-        <label for="phone no.">ph.no:</label><br>
-        <input type="phone no" id="phone no." name="contact no"><br>
+        <!-- Hobbies -->
+        <label>Hobbies:</label><br>
+        <label><input class="inline" type="checkbox" name="hobby" value="reading"> Reading</label>
+        <label><input class="inline" type="checkbox" name="hobby" value="sports"> Sports</label>
+         <label><input class="inline" type="checkbox" name="hobby" value="singing"> Singing</label>
+        <br><br>
 
-        <label for="gender">Gender:</label><br>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female<br>
-
-        <label for="hobbies">Hobbies:</label><br>
-        <input type="checkbox" name="hobby" value="reading"> Reading
-        <input type="checkbox" name="hobby" value="sports"> Sports<br>
-
-        <label for="Country">Country:</label><br>
+        <label>Country:</label>
         <select name="country">
-            <option value="india">India</option>
-            <option value="usa">USA</option>
-        </select><br>
+            <option>India</option>
+            <option>USA</option>
+            <option>Russia</option>
+        </select>
+
+        <label>10th Passing Year:</label>
+        <input type="number" name="10th_year">
+
+        <label>12th Passing Year:</label>
+        <input type="number" name="12th_year">
+
+        <label>Current Status:</label>
+        <select name="status">
+            <option>Undergraduate</option>
+            <option>Graduate</option>
+            <option>Master Degree</option>
+        </select>
+
+        <label>Year (e.g., 1st, 2nd, 3rd):</label>
+        <input type="text" name="year">
+
+        <label>College Name:</label>
+        <input type="text" name="college">
+
         <input type="submit" value="Submit">
     </form>
-<p>If you click the "Submit" button, then you can see my Resume will be sent to a page called "/RESUME.html".</p>
+<p>If you click the "Submit" button, then you can know more about me will be sent to a page called "/MY Resume.html".</p>
+</form>
 </body>
 </html>
