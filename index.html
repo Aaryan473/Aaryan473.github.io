@@ -1,8 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>About You</title>
-  <link rel="stylesheet" href="../cd.css">
     <style>
         body {
             display: flex;
@@ -10,6 +10,7 @@
             align-items: center;
             height: 100vh;
             font-family: Arial;
+            background-color:grey
         }
 
         form {
@@ -31,23 +32,31 @@
     </style>
 </head>
 <body>
-<form action="/RESUME.html">
-    <form>
+<form action="RESUME.html">
+
         <h2>Contact Form</h2>
 
         <label>Name:</label>
+    <label>
         <input type="text" name="name">
+    </label>
 
-        <label>Email:</label>
+    <label>Email:</label>
+    <label>
         <input type="email" name="email">
+    </label>
 
-        <label>Phone No:</label>
+    <label>Phone No:</label>
+    <label>
         <input type="tel" name="phone">
+    </label>
 
-        <label>Age:</label>
+    <label>Age:</label>
+    <label>
         <input type="number" name="age">
+    </label>
 
-        <!-- Gender -->
+    <!-- Gender -->
         <label>Gender:</label><br>
         <label><input class="inline" type="radio" name="gender" value="male"> Male</label>
         <label><input class="inline" type="radio" name="gender" value="female"> Female</label>
@@ -61,34 +70,46 @@
         <br><br>
 
         <label>Country:</label>
+    <label>
         <select name="country">
             <option>India</option>
             <option>USA</option>
             <option>Russia</option>
         </select>
+    </label>
 
-        <label>10th Passing Year:</label>
+    <label>10th Passing Year:</label>
+    <label>
         <input type="number" name="10th_year">
+    </label>
 
-        <label>12th Passing Year:</label>
+    <label>12th Passing Year:</label>
+    <label>
         <input type="number" name="12th_year">
+    </label>
 
-        <label>Current Status:</label>
+    <label>Current Status:</label>
+    <label>
         <select name="status">
             <option>Undergraduate</option>
             <option>Graduate</option>
             <option>Master Degree</option>
         </select>
+    </label>
 
-        <label>Year (e.g., 1st, 2nd, 3rd):</label>
+    <label>Year (e.g., 1st, 2nd, 3rd):</label>
+    <label>
         <input type="text" name="year">
-        
-        <label>College Name:</label>
-        <input type="text" name="college">
+    </label>
 
-        <input type="submit" value="Submit">
+    <label>College Name:</label>
+    <label>
+        <input type="text" name="college">
+    </label>
+
+    <input type="submit" value="Submit">
     </form>
-<p>If you click the "Submit" button, then you can know more about me will be sent to a page called "/Resume.html".</p>
-</form>
+<p>If you click the "Submit" button, then you can know more about me will be sent to a page called "/RESUME.html".</p>
+
 </body>
 </html>
