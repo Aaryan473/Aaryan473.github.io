@@ -4,7 +4,7 @@ div.mycontainer div {width:25%; float:left;}
 .testbtn {background-color: #FEE2C4; color: white; font-size: 15px; padding:12px; border: none; border-radius: 5px; cursor: pointer;}
 .city {background-color: #FFE9D4; color: black; padding: 10px;}
 .testbtn:hover {background-color: #059862;}
-body {background-color: yellow;}
+body {background-color: hsla(0, 100%, 30%, 0.3);;}
 h1 {text-align: left; color: black; font-weight: bold; text-decoration: underline;}
 h1 {text-align: left; color: black; font-weight: bold; text-decoration: underline;}
 h2 {color: black; text-align: left; text-decoration: underline;}
